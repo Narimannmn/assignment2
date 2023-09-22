@@ -51,3 +51,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     border-radius: 50px;
     color: #ffffff;
 }
+.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red; 
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 0 0 0 5px; 
+}
+@media (max-width:767px){
+    .form-check{
+        width:100%;
+    }
+}
